@@ -1,0 +1,121 @@
+what is  recursion
+ is a technique to call funcation itself 
+
+
+C# 10 | Ultimate Guide - Beginner to Advanced | Master class
+
+
+echo command and more file.txt
+
+git --version : for checking git version 
+
+git init : Initialized empty Git repository 
+
+git add . : addeding file in git
+
+git status : check the status of code file 
+ 
+git commit - m "message" : commit the code git reposiorty 
+
+git log 
+
+git config --list  : to check config list 
+
+git config --global user.name "rajratre"
+
+git config --global user.email "raj.ratre@gmail.com"
+
+
+if we doing changes in  file after runing commnad 
+git status it will detact the chnages 
+
+git status 
+
+we ahve 2 option git add and git commit -a 
+
+adding in local staging area using git add 
+git add <filename>
+
+
+git diff
+
+Add email of git repo
+git config --list 
+
+git config --global user.name "raj"
+git config --global user.email "ratre.raj@gmail.com"
+
+
+Adding file in staging area 
+
+git add FileA.txt
+git status 
+
+git commit -m "FileA-Version1"
+
+git diff  (to check the change in files)
+
+Going back to previous version
+
+git checkout <commit id>
+
+git checkout bc1e58a0f73b087c554a60d0bba971be8308brafdc9
+
+Host You code on github using git command line
+
+git hub enterprise software to install in ther on prim  server 
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/ratreraj/devopsdemo.git
+git branch -M main
+git push -u origin main
+
+
+git hub main brach naming 
+
+
+creating Branches
+git branch <branchname>
+git checkout <branchname>
+
+merging a branches 
+
+
+Implicit Merge /Fast Forword Merge  - If only new branch have changes in branch
+
+go to main or master barnch 
+git checkout main
+git merge feature
+
+
+Expilicity Merge and 3 way merge  - if both  brach have changes and commit
+
+1 do some changes in main branch and commit 
+2 checkout to feature bracnch 
+3 do change in faeure branc and commit 
+4 checkout main branch 
+5 megre feature in main branch 
+
+git merge feature 
+git log --graph 
+
+git log --graph --decorate --oneline
+
+Squash Merge
+Do not want a history of feature branch to be merge 
+it will combine all history to in signle commit to master branch
+
+git checkout main
+
+git merge --squash feature
+
+pull request
+
+
+
+git -ignore file
+
+
+
+
+
